@@ -1,5 +1,8 @@
-#pragma once
+#ifndef REVERSE
+#define REVERSE
 
 #include <cstddef>
 
-void Reverse(int *array, size_t len);
+void Reverse(int *arr, size_t len);
+
+#endif
