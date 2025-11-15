@@ -56,11 +56,104 @@
 4. Решайте домашние задания из каждого урока
 5. Используйте дополнительные материалы для углубленного изучения
 
-## Дополнительные ресурсы
+## Дополнительные материалы
 
-- [cppreference.com](https://en.cppreference.com/) - справочник по C++
-- [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/) - рекомендации по написанию кода
-- [Learn C++](https://www.learncpp.com/) - интерактивный учебник
+### Онлайн-ресурсы и документация
+
+#### Справочники и документация
+- [cppreference.com](https://en.cppreference.com/) - полный справочник по C++ стандартной библиотеке
+- [C++ Reference](https://www.cplusplus.com/reference/) - альтернативный справочник с примерами
+- [cppreference.com (русская версия)](https://ru.cppreference.com/) - русскоязычная версия справочника
+- [C++ Standards](https://isocpp.org/std/the-standard) - официальные стандарты C++
+
+#### Учебные материалы
+- [Learn C++](https://www.learncpp.com/) - интерактивный учебник с примерами
+- [C++ Tutorial](https://www.tutorialspoint.com/cplusplus/) - пошаговые уроки
+- [C++ Language Tutorial](http://www.cplusplus.com/doc/tutorial/) - базовый туториал
+- [GeeksforGeeks C++](https://www.geeksforgeeks.org/c-plus-plus/) - статьи и примеры кода
+
+#### Рекомендации и best practices
+- [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/) - рекомендации по написанию кода от создателей C++
+- [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html) - стиль кодирования Google
+- [C++ Best Practices](https://github.com/cpp-best-practices/cppbestpractices) - коллекция лучших практик
+
+### Инструменты разработки
+
+#### Компиляторы
+- [GCC (GNU Compiler Collection)](https://gcc.gnu.org/) - свободный компилятор
+- [Clang](https://clang.llvm.org/) - компилятор на базе LLVM
+- [Microsoft Visual C++](https://visualstudio.microsoft.com/vs/features/cplusplus/) - компилятор от Microsoft
+
+#### IDE и редакторы
+- [Visual Studio Code](https://code.visualstudio.com/) - легковесный редактор с поддержкой C++
+
+#### Инструменты отладки и анализа
+- [Valgrind](https://valgrind.org/) - инструмент для обнаружения утечек памяти
+- [AddressSanitizer](https://github.com/google/sanitizers/wiki/AddressSanitizer) - обнаружение ошибок памяти
+- [GDB](https://www.gnu.org/software/gdb/) - отладчик GNU
+- [cppcheck](http://cppcheck.sourceforge.net/) - статический анализатор кода
+
+#### Системы сборки
+- [CMake](https://cmake.org/) - кроссплатформенная система сборки
+- [Make](https://www.gnu.org/software/make/) - классическая система сборки
+- [Ninja](https://ninja-build.org/) - быстрая система сборки
+
+### Книги
+
+#### Для начинающих
+- "Язык программирования C++" - Бьярн Страуструп
+- "C++ Primer" - Стэнли Липпман, Жози Лажойе, Барбара Му
+- "Программирование: принципы и практика с использованием C++" - Бьярн Страуструп
+
+#### Продвинутые темы
+- "Эффективный и современный C++" - Скотт Мейерс
+- "C++ Concurrency in Action" - Энтони Уильямс (многопоточность)
+- "The C++ Programming Language" - Бьярн Страуструп (полное руководство)
+
+### Видео-курсы и лекции
+
+- [C++ Programming Course](https://www.youtube.com/results?search_query=c%2B%2B+programming+course) - различные курсы на YouTube
+- [CppCon](https://www.youtube.com/user/CppCon) - конференция по C++ с записями докладов
+- [C++ Weekly](https://www.youtube.com/c/lefticus1) - еженедельные видео о C++
+
+### Сообщества и форумы
+
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/c%2B%2B) - вопросы и ответы по C++
+- [Reddit r/cpp](https://www.reddit.com/r/cpp/) - сообщество на Reddit
+- [C++ Forum](https://cplusplus.com/forum/) - форум для обсуждения C++
+- [Habr C++](https://habr.com/ru/hub/cpp/) - статьи на русском языке
+
+### Практика и задачи
+
+- [LeetCode](https://leetcode.com/) - задачи по алгоритмам и структурам данных
+- [HackerRank C++](https://www.hackerrank.com/domains/cpp) - задачи по программированию
+- [Codeforces](https://codeforces.com/) - соревнования по программированию
+- [Project Euler](https://projecteuler.net/) - математические задачи для программирования
+
+### Полезные библиотеки
+
+- [Boost](https://www.boost.org/) - набор библиотек для C++
+- [STL](https://en.cppreference.com/w/cpp/header) - стандартная библиотека шаблонов
+- [Qt](https://www.qt.io/) - фреймворк для разработки приложений
+- [SFML](https://www.sfml-dev.org/) - библиотека для мультимедиа и игр
+
+### Онлайн-компиляторы
+
+- [Compiler Explorer](https://godbolt.org/) - интерактивный компилятор с анализом кода
+- [OnlineGDB](https://www.onlinegdb.com/online_c++_compiler) - онлайн компилятор с отладчиком
+- [Repl.it](https://replit.com/languages/cpp) - онлайн IDE для C++
+
+### Дополнительные темы для изучения
+
+#### После базового курса
+- Шаблоны (templates) и метапрограммирование
+- STL контейнеры и алгоритмы
+- Умные указатели (smart pointers)
+- Многопоточность (threading)
+- Лямбда-выражения и функциональное программирование
+- Move-семантика и rvalue references
+- RAII и управление ресурсами
+- Исключения (exceptions) и обработка ошибок
 
 ## Форматирование кода
 
